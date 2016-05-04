@@ -1,0 +1,10 @@
+postgres=# create user admin_user password 'gmendez_1';
+CREATE ROLE
+postgres=# alter role admin_user with superuser;
+ALTER ROLE
+postgres=# create database musicdb with owner admin_user;
+CREATE DATABASE
+postgres=# GRANT ALL ON DATABASE musicdb TO admin_user;
+GRANT
+postgres=# 
+

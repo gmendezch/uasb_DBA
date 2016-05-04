@@ -1,0 +1,5 @@
+-a (ó -data-only): Hace una copia de datosy no del esquema.
+-v (-vervose): Muestra a detalle todos los pasos en el proceso de copia de seguridad.
+
+
+
